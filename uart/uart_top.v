@@ -4,7 +4,7 @@ module uart_top(
     input CLK_i,
     input RSTn_i,
     input RS232_RX_i,
-    input RS232_TX_o,
+    output RS232_TX_o,
     output [7:0] LED_o
 );
 
